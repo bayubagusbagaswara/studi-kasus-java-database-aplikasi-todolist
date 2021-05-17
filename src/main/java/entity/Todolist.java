@@ -9,6 +9,11 @@ public class Todolist {
     private String todo;
 
     /**
+     * Id dari database
+     */
+    private Integer id;
+
+    /**
      * Constructor dengan parameter
      * @param todo
      */
@@ -38,5 +43,13 @@ public class Todolist {
      */
     public void setTodo(String todo) {
         this.todo = todo;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
